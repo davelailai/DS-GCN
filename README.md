@@ -12,3 +12,7 @@ conda activate pyskl
 
 pip install -e .
 
+Run our method :
+
+bash tools/dist_test.sh 
+
