@@ -1,7 +1,14 @@
-This project is generated base on the pyskl (https://github.com/kennymckormick/pyskl)
+This project is generated based on the the pyskl (https://github.com/kennymckormick/pyskl)
+
 installation:
-git clone 
+
+git clone https://github.com/davelailai/DS-GCN.git
+
 cd DS-GCN
+
 conda env create -f pyskl.yaml
+
 conda activate pyskl
+
 pip install -e .
+
