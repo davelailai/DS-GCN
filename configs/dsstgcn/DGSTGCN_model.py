@@ -24,13 +24,8 @@ model = dict(
         # gcn_edge_num=15,
         gcn_ctr='T',
         gcn_ada='T',
-        # tcn_type='dgmstcn', # 'dgmsmlp', 'dgmstcn'
-        ## Setting dynamic spation GCN
-        tcn_type='dgmsmlp', # 'dgmsmlp', 'dgmstcn'
-        tcn_add_tcn=True,
-        tcn_merge_after=True,
-        # tcn_adaptive = False,
-        # tcn_dropout = 0.5,
+        tcn_type='dgmstcn',
+       
 
         graph_cfg=dict(layout=graph, mode='random', num_filter=3, init_off=.04, init_std=.02),
         tcn_ms_cfg=[(3, 1), (3, 2), (3, 3), (3, 4), ('max', 3), '1x1']
