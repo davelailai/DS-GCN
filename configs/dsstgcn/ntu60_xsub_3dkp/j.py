@@ -1,4 +1,4 @@
-_base_ = ['../DGSTGCN_model.py']
+_base_ = ['../DSSTGCN_model.py']
 modality = 'j'
 clip_len = 60
 graph = 'nturgb+d'
